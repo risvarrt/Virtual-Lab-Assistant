@@ -1,12 +1,13 @@
 # Virtual Lab Assistant
 
-## Demo
-
-[![Watch the demo](https://img.youtube.com/vi/97xkhX4tO6s/hqdefault.jpg)](https://www.youtube.com/watch?v=97xkhX4tO6s)
-
 ## Description
 
 This project is a comprehensive online platform designed to facilitate virtual lab assessments for computer science students. It provides an environment that simulates offline lab sessions, allowing instructors to monitor students, prevent malpractice, and engage with students effectively. The platform supports coding and viva assessments, with features like screen sharing, AI-based live monitoring, chat systems, and more.
+
+
+## Demo
+
+[![Watch the demo](https://img.youtube.com/vi/97xkhX4tO6s/hqdefault.jpg)](https://www.youtube.com/watch?v=97xkhX4tO6s)
 
 ## Usage
 

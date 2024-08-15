@@ -8,6 +8,21 @@
 
 This project is a comprehensive online platform designed to facilitate virtual lab assessments for computer science students. It provides an environment that simulates offline lab sessions, allowing instructors to monitor students, prevent malpractice, and engage with students effectively. The platform supports coding and viva assessments, with features like screen sharing, AI-based live monitoring, chat systems, and more.
 
+## Usage
+
+- **College Admin**: Register your college, manage staff and students, and monitor ongoing assessments.
+- **Staff**: Create and manage classrooms, set up assessments, and monitor students during tests.
+- **Students**: Participate in lab assessments, submit solutions, and view reports.
+
+## Technologies Used
+
+- **Frontend**: React.js, Bootstrap, HTML, CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB
+- **AI Monitoring**: TensorFlow, SSD MobileNet v1
+- **Other Tools**: RapidAPI for the compiler, Socket.io for real-time communication
+
+
 ## Features
 
 - **User Modules**: Separate modules for colleges, staff, and students.
@@ -76,20 +91,6 @@ The AI-based monitoring system uses a pre-trained deep learning model (ssd_mobil
    ```bash
    npm start
    ```
-
-## Usage
-
-- **College Admin**: Register your college, manage staff and students, and monitor ongoing assessments.
-- **Staff**: Create and manage classrooms, set up assessments, and monitor students during tests.
-- **Students**: Participate in lab assessments, submit solutions, and view reports.
-
-## Technologies Used
-
-- **Frontend**: React.js, Bootstrap, HTML, CSS
-- **Backend**: Node.js, Express.js
-- **Database**: MongoDB
-- **AI Monitoring**: TensorFlow, SSD MobileNet v1
-- **Other Tools**: RapidAPI for the compiler, Socket.io for real-time communication
 
 ## Contributing
 

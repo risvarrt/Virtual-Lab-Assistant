@@ -1,0 +1,189 @@
+#logo {
+  // position: fixed;
+  margin-top: 15px;
+  top: -50px;
+  font-weight: 500;
+  font-size: small;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.skill-questions {
+  // background: $off-white;
+  width: 80%;
+  margin: $lg auto 0 auto;
+  padding: $sm $md;
+
+  h2 {
+    font-family: Roboto;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .mleft {
+    float: right;
+  }
+  h5 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    user-select: none;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    line-height: 1.5;
+    text-align: center;
+  }
+  .options-container {
+    display: inline-block;
+    width: 100%;
+  }
+
+  .option {
+    background-color: $off-white;
+    border-radius: 7px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+    padding: $normal;
+    transition: 0.3s linear all;
+    text-align: left;
+    width: 100%;
+  }
+
+  .option:hover {
+    background-color: #38d39f;
+    color: white;
+  }
+
+  .selected {
+    background-color: greenyellow;
+  }
+}
+
+.skill-button-container {
+  display: flex;
+  justify-content: flex-start;
+  position: fixed;
+  bottom: 10px;
+  //     margin: 0 auto $sm 21.5rem;
+  //     padding: $md;
+  //     width: 80%;
+  // }
+  width: 100%;
+}
+
+.skill-button-container button {
+  border: none;
+  color: $off-white;
+  cursor: pointer;
+  font-family: $quicksand;
+  // margin-right: $md;
+}
+
+.skill-button-container button:first-child {
+  background-color: darken($blue, 10%);
+  box-shadow: $shadow;
+  margin-left: 10px;
+  transition: 0.2s linear all;
+  padding: 10px 15px 10px 15px;
+  bottom: 25px;
+  left: 15px;
+}
+
+.skill-button-container button:first-child:hover {
+  background-color: darken($blue, 20%);
+}
+
+.skill-button-container button:nth-child(3) {
+  background-color: darken($blue, 10%);
+  box-shadow: $shadow;
+  margin-right: 10px;
+  transition: 0.2s linear all;
+  padding: 10px 30px 10px 30px;
+  bottom: 25px;
+  right: 15px;
+}
+
+.skill-button-container button:last-child {
+  background-color: darken($blue, 10%);
+  box-shadow: $shadow;
+  margin-right: 10px;
+  transition: 0.2s linear all;
+  padding: 10px 30px 10px 30px;
+  bottom: 25px;
+  right: 15px;
+}
+
+.skill-button-container button:last-child:hover {
+  background-color: darken($blue, 10%);
+}
+.rightEnd{
+  top: 110px;
+  right: 10px;
+  position: fixed;
+}
+.calc{
+  border: none;
+  display: inline-block;
+  color: $off-white;
+  cursor: pointer;
+  font-family: $quicksand;
+  background-color: #cc3434;
+  padding: 7px 30px 12px 30px;
+  font-size: 20px;
+  transition: 0.2s linear all;
+}
+.calc:hover {
+  background-color: darken(#cc3434, 10%);
+}
+.redBtn {
+  border: none;
+  display: inline-block;
+  color: $off-white;
+  cursor: pointer;
+  font-family: $quicksand;
+  // margin-right: $md;
+  background-color: #cc3434;
+  // box-shadow: $shadow;
+  padding: 15px 30px 15px 30px;
+
+  transition: 0.2s linear all;
+}
+.redBtn:hover {
+  background-color: darken(#cc3434, 10%);
+}
+@media (max-width: $md-breakpoint) {
+  .skill-button-container {
+    margin: 0 auto 0.25rem auto;
+  }
+}
+
+@media screen and (max-width: 800px)
+{
+  .rightEnd{
+    top: 80px;
+    right: 10px;
+  }
+  .redBtn {
+    padding: 7px 20px 7px 20px;
+  }
+  .calc {
+    font-size: 15px;
+    padding: 5px 20px 5px 20px;
+  }
+  .skill-button-container button:last-child i{
+    display: none;
+  }
+  .skill-button-container button:last-child{
+    padding: 15px 25px 0 25px;
+    margin-right: 40px;
+  }
+  .skill-questions{
+  .option{
+    width: 100%;
+  }
+  }
+}

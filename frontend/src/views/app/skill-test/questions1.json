@@ -1,0 +1,63 @@
+[    
+    {   
+        "id": 1,
+        "question": "Hello World with Integer",
+        "question_description": "Print Hello world with an integer in between the strings. If I give input as 2, it should print \"Hello 2 world\" ",
+        "testcase1Inp": "2",
+        "testcase1Op": "Hello 2 world",
+        "testcase2Inp": "3",
+        "testcase2Op": "Hello 3 world",
+        "testcase3Inp": "4",
+        "testcase3Op": "Hello 4 world",
+        "testcase4Inp": "5",
+        "testcase4Op": "Hello 5 world",
+        "hint": "nil",
+        "mark": "20"
+    },
+    {   
+        "id": 2,
+        "question": "Palindrome Integer2",
+        "question_description": "A palindrome2 integer is an integer x for which reverse(x) = x where reverse(x) is x with its digit reversed.",
+        "testcase1Inp": "12121",
+        "testcase1Op": "palindrome",
+        "testcase2Inp": "123",
+        "testcase2Op": "not a palindrome",
+        "testcase3Inp": "545",
+        "testcase3Op": "palindrome",
+        "testcase4Inp":"789",
+        "testcase4Op": "not a palindrome",
+        "hint": "nil",
+        "mark": "20"
+    },
+    {   
+        "id": 3,
+        "question": "Palindrome Integer",
+        "question_description": "A palindrome integer is an integer x for which reverse(x) = x where reverse(x) is x with its digit reversed.",
+        "testcase1Inp": "12121",
+        "testcase1Op": "palindrome",
+        "testcase2Inp": "123",
+        "testcase2Op": "not a palindrome",
+        "testcase3Inp": "545",
+        "testcase3Op": "palindrome",
+        "testcase4Inp":"789",
+        "testcase4Op": "not a palindrome",
+        "hint": "nil",
+        "mark": "20"
+    },
+    {   
+        "id": 4,
+        "question": "Palindrome Integer",
+        "question_description": "A palindrome integer is an integer x for which reverse(x) = x where reverse(x) is x with its digit reversed.",
+        "testcase1Inp": "12121",
+        "testcase1Op": "palindrome",
+        "testcase2Inp": "123",
+        "testcase2Op": "not a palindrome",
+        "testcase3Inp": "545",
+        "testcase3Op": "palindrome",
+        "testcase4Inp":"789",
+        "testcase4Op": "not a palindrome",
+        "hint": "nil",
+        "mark": "20"
+    }
+    
+]
